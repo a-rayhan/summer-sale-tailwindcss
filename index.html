@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale Website</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./style.css">
+
+
+    <!--=============== DAISYUI ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F8F8F8]">
+    <!--==================== HOME ====================-->
+    <section class="bg-[#F9F6E2]">
+        <div class="max-w-[1024px] mx-auto p-8">
+            <div class="py-10 flex flex-col lg:flex-row md:justify-center md:items-center lg:items-center lg:gap-5">
+                <div class="text-center mb-10">
+                    <p class="text-xl lg:text-2xl mb-5">
+                        ---SALE FEVER---
+                    </p>
+
+                    <h1 class="text-5xl font-bold mb-8 lg:mb-14 md:px-16 lg:px-0">
+                        Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span>
+                    </h1>
+
+                    <p class="text-lg">
+                        Use Promo Code
+                        <span class="bg-[#E527B2] text-white px-4 py-2 font-semibold rounded-md">SELL200</span>
+                    </p>
+                </div>
+
+                <div class="md:w-[500px] lg:min-w-[450px]">
+                    <img src="./img/Summer 1.png" alt="" class="w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== LEFTSIDE MAIN CONTENT ====================-->
+    <main class="max-w-[1024px] mx-auto px-8 flex flex-col lg:flex-row gap-4">
+        <section>
+            <!--==================== KITCHENWARE ====================-->
+            <section class="pt-28 mb-20" id="kitchen-ware">
+                <h1 class="text-3xl font-semibold mb-9 text-center md:text-left">
+                    Kitchenware
+                </h1>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-4">
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod1.png" alt="" class="w-36 lg:w-24">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            K. Accessories
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>39.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod2.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            K. Accessories
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>25.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] rounded-lg mb-5 card-img">
+                            <img src="./img/prod3.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Home Cooker
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>49.00</span> TK
+                        </h4>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== SPORTSWEAR ====================-->
+            <section>
+                <h1 class="text-3xl font-semibold mb-9 text-center md:text-left">
+                    Sportswear
+                </h1>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-4">
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod4.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Sports Back Cap
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>49.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod5.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Full Jersey Set
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>69.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod6.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Sports cates
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>169.00</span> TK
+                        </h4>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== FURNITURE ====================-->
+            <section class="py-20">
+                <h1 class="text-3xl font-semibold mb-9 text-center md:text-left">
+                    Furniture
+                </h1>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-4">
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod7.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Relax Chair
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>185.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod8.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Children play
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>299.00</span> TK
+                        </h4>
+                    </article>
+
+                    <article class="w-[350px] lg:w-[230px] bg-white p-4 rounded-lg">
+                        <div class="h-[200px] lg:h-[140px] bg-[#F8F8F8] rounded-lg mb-5 card-img">
+                            <img src="./img/prod9.png" alt="" class="w-44 lg:w-32">
+                        </div>
+
+                        <div class="text-[#FFC107] text-center text-xl">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+
+                        <h2 class="text-center text-2xl font-medium mb-3">
+                            Flexible Sofa
+                        </h2>
+
+                        <h4 onclick="handleCLikBtn(this)" class="text-xl text-center pb-5 cursor-pointer">
+                            <span>339.00</span> TK
+                        </h4>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <!--==================== RIGHT CART CONTENT ====================-->
+        <section class="mt-20 lg:mt-[185px]">
+            <div class="w-[350px] lg:w-[230px] bg-white p-3 rounded-lg mb-6 py-6">
+                <h2 class="text-xl font-medium mb-3">
+                    Have coupon?
+                </h2>
+
+                <label class="input-group">
+                    <input disabled id="discount-field" type="text" placeholder="Coupon code"
+                        class="input input-bordered w-full text-sm  focus:outline-0 border-2" />
+                    <button class="cursor-pointer bg-[#E527B2] text-white font-medium px-3"
+                        id="discount-apply">Apply</button>
+                </label>
+            </div>
+
+            <div class="w-[350px] lg:w-[230px] bg-white p-3 rounded-lg py-6">
+                <ol class="list-decimal	ml-8" id="selected-items">
+
+                </ol>
+
+                <hr class="my-5">
+
+                <div class="ml-2">
+                    <h2 class="text-lg font-medium mb-2">
+                        Total price: <span class="text-[#11111180]"><span id="total-price">00.00</span>TK</span>
+                    </h2>
+
+                    <h2 class="text-lg font-medium mb-2">
+                        Discount: <span class="text-[#11111180]"><span id="discount-price">00.00</span>TK</span>
+                    </h2>
+
+                    <h2 class="text-lg font-medium mb-2">
+                        Total: <span class="text-[#11111180]"><span id="grand-total-price">00.00</span>TK</span>
+                    </h2>
+                </div>
+
+                <hr class="my-5">
+
+                <!-- Open the modal using ID.showModal() method -->
+                <button disabled id="make-purchase"
+                    class="cursor-pointer bg-[#E527B2] text-white font-medium w-full py-3 rounded-lg text-lg"
+                    onclick="my_modal_1.showModal()">
+                    Make Purchase
+                </button>
+
+                <dialog id="my_modal_1" class="modal">
+                    <form method="dialog" class="modal-box flex flex-col justify-center items-center py-20">
+                        <img src="./img/congo.png" alt="">
+
+                        <h3 class="font-bold text-4xl">Congratulations!</h3>
+
+                        <p class="py-4">Your Purchase the product</p>
+
+                        <div class="modal-action">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button id="go-home"
+                                class="cursor-pointer bg-[#E527B2] text-white font-medium w-full py-3 px-6 rounded-lg text-lg">Go
+                                Home
+                            </button>
+                        </div>
+                    </form>
+                </dialog>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
